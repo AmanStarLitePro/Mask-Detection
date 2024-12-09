@@ -15,10 +15,33 @@ The project is structured as follows:
 - Frontend: A simple HTML form for uploading videos via a browser.
 - Backend: Flask-based API handling video processing and sending the output.
 
+## 🧑‍💻 Tech Stack Used
+
+#### **Frontend**:
+1. HTML
+2. CSS
+3. JavaScript (jQuery)
+4. PHP
+
+#### **Backend**:
+1. Python
+2. Flask
+3. Flask-CORS
+4. OpenCV
+
+#### **YOLOv8 Model Training**:
+1. Ultralytics YOLOv8
+2. Python
+
+#### **Libraries and Tools**:
+1. Logging (Python Standard Library)
+2. Python UUID
+
 ## 🗂 Table of Contents
 - [Introduction](#-overview)
 - [Requirements](#-requirements)
 - [Demo Video](#-demo-video)
+- [Project Illustration Video](#-illustration-video)
 - [Preprocessing](#-preprocessing)
 - [Features](#-features)
 - [API Integration](#-api-integration)
@@ -44,7 +67,6 @@ https://github.com/user-attachments/assets/fb59ca1d-e4da-4e2b-89b0-cc0f33321d39
 https://github.com/user-attachments/assets/4dbd2522-fcf7-4540-9387-17a7ba6148bb
 
 ## 🛠 Preprocessing
-
 ![Preprocessing](https://github.com/user-attachments/assets/84de08fe-a583-4d4b-ad5b-7dc68c4ff66d)
 
 ## 🎯 Features
@@ -72,34 +94,37 @@ https://github.com/user-attachments/assets/4dbd2522-fcf7-4540-9387-17a7ba6148bb
 
 ## 🛠 How to Run
 
-1. Set Up the Backend
-   
-- Clone this repository and navigate to the Backend folder.
-- Install the required dependencies using the provided requirements.txt.
-- Run the backend:
-```sh
-   python main.py
-```
+1. Set Up the Backend   
+   - Clone this repository and navigate to the Backend folder.
+   - Install the required dependencies using the provided requirements.txt.
+   - Run the backend:
+   ```sh
+      python main.py
+   ```
 
-2. Run the Frontend
-- Navigate to the Frontend folder.
-- Use XAMPP or any other PHP server to host the index.php file.
-- Access the frontend in a browser:
-```sh
-  http://localhost/index.php
-```
+2. Run the Frontend   
+   - Navigate to the Frontend folder.
+   - Use XAMPP or any other PHP server to host the index.php file.
+   - Access the frontend in a browser:
+   ```sh
+      http://localhost/index.php
+   ```
 
 ## 📊 Workflow
 
-- Upload: The user uploads a video through the frontend form.
-  
-- Processing:
-  - The backend processes the video:
-  - YOLOv8s detects individuals wearing or not wearing masks.
-  - Bounding boxes are annotated on frames.
-  - Smoothing ensures stable bounding box transitions.
-    
-- Output: The processed video is made available for download via the frontend.
+**Frontend**:
+ - Displays a form where the user uploads a video.
+ - Submits the video using an AJAX request to the Flask API.
+ - Shows a loading indicator during processing and provides a download link for the processed video.
+
+**Backend (Flask)**:
+ - Handles video upload and processes the video using the YOLOv8 model.
+ - Annotates the video with bounding boxes and labels for detected objects.
+ - Returns the processed video to the frontend.
+
+**Model Training**:
+ - Uses YOLOv8 to train on labeled datasets to produce the best.pt model.
+ - This model is integrated into the Flask app for real-time predictions.
 
 ## 📝 Notes
 
