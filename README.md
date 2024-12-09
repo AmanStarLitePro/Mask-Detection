@@ -45,12 +45,12 @@ The project is structured as follows:
 
 ## 🎯 Features
 
-** Video Upload and Processing **
+**Video Upload and Processing**
    - Users can upload a video through the frontend.
    - The backend processes the video, applies the YOLOv8s model for face mask detection, and outputs a processed video with bounding boxes.
-** Smooth Bounding Boxes **
+**Smooth Bounding Boxes**
    - Uses a smoothing algorithm for bounding box transitions across frames, ensuring a more stable visual output.
-** Output Video Download **
+**Output Video Download**
    - Once processing is complete, the processed video can be downloaded via the frontend.
 
 ## 🖥️ API Integration
