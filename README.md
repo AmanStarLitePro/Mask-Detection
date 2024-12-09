@@ -38,9 +38,10 @@ The project is structured as follows:
 7. [Logging Python Library](https://docs.python.org/3/library/logging.html)
 
 ## 🎥 Demo Video
-![Demo Video](https://github.com/user-attachments/assets/b1ac024f-7a5d-4eae-b720-8646b8df5294)
+![Demo Video](https://github.com/user-attachments/assets/e3b4511a-c4da-443a-9d80-fca24767f1de)
 
 ## 🛠 Preprocessing
+
 ![Preprocessing](https://github.com/user-attachments/assets/84de08fe-a583-4d4b-ad5b-7dc68c4ff66d)
 
 ## 🎯 Features
@@ -61,7 +62,7 @@ The project is structured as follows:
 ## 🖥️ API Integration
 
 - **Upload**: Accepts a video file from frontend for processing video and saves the video in the uploads folder.
-- **Process**: Processes the uploaded video using the YOLOv8s model and returns the processed video as a downloadable file.
+- **Process_Video**: Processes the uploaded video using the YOLOv8s model and returns the processed video as a downloadable file.
 
 ## 📊 Output
 ![Output](https://github.com/user-attachments/assets/38dae375-af91-4162-84a4-5d76c31e7d29)
