@@ -38,7 +38,8 @@ The project is structured as follows:
 7. [Logging Python Library](https://docs.python.org/3/library/logging.html)
 
 ## 🎥 Demo Video
-[![Demo_Video](https://github.com/user-attachments/assets/fbd40a64-9248-43a0-acb4-4cde342efee4)](https://github.com/user-attachments/assets/5c0ee4cf-4066-4ddb-8f1f-57974e95dd83)
+
+![Video](https://github.com/user-attachments/assets/142376b3-0e0f-4282-86fe-b00d85f3d0d4)
 
 ## 🛠 Preprocessing
 
