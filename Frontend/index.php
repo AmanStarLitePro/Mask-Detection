@@ -134,8 +134,8 @@
     }
 
     .loader {
-      border: 16px solid #000000; /* Light grey */
-      border-top: 16px solid #3498db; /* Blue */
+      border: 16px solid #000000;
+      border-top: 16px solid #3498db;
       border-radius: 50%;
       width: 120px;
       height: 120px;
@@ -161,7 +161,6 @@
 
         var formData = new FormData(this);
 
-        // Hide the form and show the loader with loading text
         $('.body').html(`
           <br>
           <div class="loader"></div>
@@ -186,14 +185,12 @@
                 responseType: 'blob'
               },
               success: function (processedResponse) {
-                // Create a Blob from the response
                 var blob = processedResponse;
                 var link = document.createElement('a');
                 link.href = URL.createObjectURL(blob);
                 link.download = 'processed_video.mp4';
                 link.textContent = 'Click here to download the processed video';
 
-                // Show the download link and hide the loader
                 $('.body').html('');
                 $('#downloadLink').html(link).show();
               },
@@ -229,7 +226,7 @@
         </div>
       </div>
     </div>
-    <div id="downloadLink"></div> <!-- Placeholder for the download link -->
+    <div id="downloadLink"></div>
   </div>
 </body>
 </html>
