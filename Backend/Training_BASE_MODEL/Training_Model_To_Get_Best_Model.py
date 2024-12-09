@@ -1,5 +1,3 @@
-# pip install ultralytics -q
-
 from ultralytics import YOLO
 
 model = YOLO("yolov8s.pt")
