@@ -33,10 +33,6 @@ The project is structured as follows:
 1. Ultralytics YOLOv8
 2. Python
 
-#### **Libraries and Tools**:
-1. Logging (Python Standard Library)
-2. Python UUID
-
 ## 🗂 Table of Contents
 - [Introduction](#-overview)
 - [Requirements](#-requirements)
