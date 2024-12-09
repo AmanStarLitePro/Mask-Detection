@@ -10,15 +10,12 @@ import logging
 app = Flask(__name__)
 CORS(app)
 
-# Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Load the YOLO model
 model_path = "best.pt"
 model = YOLO(model_path)
 
-# Smooth bounding boxes
 def smooth_bboxes(detections, alpha=0.6):
     smoothed_detections = []
     prev_detections = None
@@ -66,10 +63,8 @@ def process_video():
 
     logger.info(f"Processing video: {video_path}")
 
-    # Define unique output video path
     output_video_path = f"processed_video_{uuid.uuid4().hex}.mp4"
 
-    # Process the video
     cap = cv2.VideoCapture(video_path)
     if not cap.isOpened():
         logger.error(f"Failed to open video file: {video_path}")
