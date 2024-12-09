@@ -39,7 +39,7 @@ The project is structured as follows:
 
 ## 🎥 Demo Video
 
-![Video](https://github.com/AmanStarLitePro/Mask-Detection/blob/54fee18d2dc01cb9ffd65ce0b2ec855c2edd0bfe/Sample%20Output/Sample%20OUTPUT%20VIDEO.mp4)
+![Video](https://github.com/user-attachments/assets/0ab02ebe-518f-449d-820b-67cdc3fce1f9)
 
 ## 🛠 Preprocessing
 
