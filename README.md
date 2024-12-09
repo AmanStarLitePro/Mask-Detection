@@ -41,7 +41,7 @@ The project is structured as follows:
 ![Demo Video](https://github.com/user-attachments/assets/0ab02ebe-518f-449d-820b-67cdc3fce1f9)
 
 ## 🎥 Illustration Video
-![Illustration Video](https://github.com/user-attachments/assets/0ab02ebe-518f-449d-820b-67cdc3fce1f9)
+![Illustration Video](https://github.com/user-attachments/assets/a4f5fd8f-34e7-49c9-8771-0d580e801d6a)
 
 ## 🛠 Preprocessing
 
