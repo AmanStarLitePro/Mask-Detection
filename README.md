@@ -98,6 +98,7 @@ https://github.com/user-attachments/assets/4dbd2522-fcf7-4540-9387-17a7ba6148bb
    - Clone this repository and navigate to the Backend folder.
    - Install the required dependencies using the provided requirements.txt.
    - Run the backend:
+     
    ```sh
       python main.py
    ```
@@ -106,6 +107,7 @@ https://github.com/user-attachments/assets/4dbd2522-fcf7-4540-9387-17a7ba6148bb
    - Navigate to the Frontend folder.
    - Use XAMPP or any other PHP server to host the index.php file.
    - Access the frontend in a browser:
+     
    ```sh
       http://localhost/index.php
    ```
